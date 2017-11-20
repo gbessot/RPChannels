@@ -57,37 +57,37 @@ Let's explain this with three simple examples which are implemented by default.
 }
 ```
 
-This is an example of chat.json file.
-
-The first channel is the default one, as shown by the prefix.
-When a player send a message without any prefix, it's in this channel.
-All players in a radius of 20 blocks can hear him.
-The format will be explained later.
-Every group can write a message in this channel and every group can read.
-A player in another world can't see the channel.
-The message isn't for a specific player.
-
-The second channel is a support.
-When a player send a message which start with ?, it's sended here.
-All players can hear him without any radius.
-Every group can send a message in this channel but only the players who are in admin group or modo group can read.
-We can see the messages from another world.
-The message isn't for a specific player.
-
-The third channel is the support response.
-When a player send a message which start with ?>, it's sended here.
-All players can hear him without any radius.
-Only the players who are in admin group or modo group can send a message but every group can read.
-We can see the messages from another world.
-The message is for a specific player, so the raw message should be something like : ?> pseudo The message you want to send.
-
-Now, we're going to explain the format row.
-The plugin will take the format line and replace the following elements :
-%a -> sender name
-%t -> target name (if there is one)
-%m -> message
-& + number -> minecraft color associated.
-So with the third example we have :
+This is an example of chat.json file.  
+  
+The first channel is the default one, as shown by the prefix.  
+When a player send a message without any prefix, it's in this channel.  
+All players in a radius of 20 blocks can hear him.  
+The format will be explained later.  
+Every group can write a message in this channel and every group can read.  
+A player in another world can't see the channel.  
+The message isn't for a specific player.  
+  
+The second channel is a support.  
+When a player send a message which start with ?, it's sended here.  
+All players can hear him without any radius.  
+Every group can send a message in this channel but only the players who are in admin group or modo group can read.  
+We can see the messages from another world.  
+The message isn't for a specific player.  
+  
+The third channel is the support response.  
+When a player send a message which start with ?>, it's sended here.  
+All players can hear him without any radius.  
+Only the players who are in admin group or modo group can send a message but every group can read.  
+We can see the messages from another world.  
+The message is for a specific player, so the raw message should be something like : ?> pseudo The message you want to send.  
+  
+Now, we're going to explain the format row.  
+The plugin will take the format line and replace the following elements :  
+%a -> sender name  
+%t -> target name (if there is one)  
+%m -> message  
+& + number -> minecraft color associated.  
+So with the third example we have :  
 
 ![support reponse example](https://image.prntscr.com/image/5vB0WGNYTja3uVjmV-tscg.png)
 
@@ -99,4 +99,4 @@ There's only one command :
 
 /group <Player> <Group>
 
-"/group _Mega_ admin" will add the player _Mega_ in the group admin.
+/group Steve admin" will add the player Steve in the group admin.
