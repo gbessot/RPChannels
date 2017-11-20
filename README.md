@@ -101,4 +101,4 @@ There's only one command :
 
 /group <Player> <Group>
 
-/group Steve admin" will add the player Steve in the group admin.
+"/group Steve admin" will add the player Steve in the group admin.
