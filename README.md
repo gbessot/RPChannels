@@ -91,6 +91,8 @@ So with the third example we have :
 
 ![support reponse example](https://image.prntscr.com/image/5vB0WGNYTja3uVjmV-tscg.png)
 
+And if you set the radius to -1, it will not set any radius.  
+  
 Try to add your own channels now :)
 
 **Plugin commands**
