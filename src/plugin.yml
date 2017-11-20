@@ -1,0 +1,7 @@
+name: RPChannels
+version: 1.0
+author: Mega
+main: fr.mega.rpchannels.Main
+commands:
+  group:
+    description: Set the player group
