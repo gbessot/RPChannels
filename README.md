@@ -2,7 +2,7 @@
 
 **What's this plugin ?**
 
-RPChannels is a plugin that allow you to set custom channels in your serveur chat. You just have to edit the JSON config file !
+RPChannels is a plugin that allow you to set custom channels in your server chat. You just have to edit the JSON config file !
 
 **How can I custom my channels ?**
 
